@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "student-project-happiness-data-app"
+version = "0.1.0"
+description = "Small app about retrieving data about hapiness index of each country"
+authors = ["ikari2k <pluta.m@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+plotly = "^5.18.0"
+pandas = "^2.2.0"
+streamlit = "^1.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
